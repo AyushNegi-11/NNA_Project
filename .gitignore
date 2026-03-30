@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Jupyter Notebook checks
+.ipynb_checkpoints
+
+# Downloaded files/scripts that aren't app logic
+*.txt
+!requirements.txt
+*.py
+!app.py
+*.ipynb
+
+# The tokenizer
+!tokenizer.json
+
+# The model weights file
+*.h5
+!image_captioning_model.h5
