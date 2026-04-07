@@ -200,7 +200,7 @@ if uploaded_file is not None:
         display_image = Image.open(uploaded_file)
         
         with col1:
-            st.image(display_image, caption='Uploaded Image', use_container_width=True)
+            st.image(display_image, caption='Uploaded Image', use_column_width=True)
             
         with col2:
             st.markdown("### Generating Caption...")
