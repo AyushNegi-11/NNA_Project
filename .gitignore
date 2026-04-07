@@ -25,3 +25,4 @@ ENV/
 # The model weights file
 *.h5
 !image_captioning_model.h5
+nul
